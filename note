@@ -1,0 +1,102 @@
+     // 'yay' and 'boo' button
+function yay() {
+    var yay = "Welcome to Wonderland!"
+        document.write(yay)
+    }
+    
+function boo(){
+    var boo = "gave up"
+        document.write(boo)
+}
+
+-line 44-53
+
+
+        /* 'yay' and 'boo' button
+function yay() {
+    var yay = "Welcome to Wonderland!"
+        document.write(yay)
+    }
+    
+function boo(){
+    var boo = "gave up"
+        document.write(boo)
+}*/
+
+
+-----------------------
+
+
+ /* let prompt = require('prompt-sync')();
+            var Mermaid = prompt('How much strength you need?')
+
+            console.log('water');
+
+            switch (power) {
+                case 'splash':
+                    console.log('Just a taste');
+                    break;
+                case 'wave':
+                    console.log('Are you done?');
+                    break;
+                case 'tsunami':
+                    console.log('oof');
+                    break;
+                default:
+                    console.log('yee');
+                    */
+
+----------------------------------------------                    
+/*
+function adventure(){
+var box = document.getElementById("box");
+var yay = document.getElementById("yay");
+var boo = document.getElementById("boo");
+
+yay.onclick = function(){
+    document.write('Born Ready!!🤩');
+    }
+
+boo.onclick = function(){
+    document.write('Lame🙄');
+    }
+    document.getElementById("demo").innerHTML
+}
+
+/*
+function adventure(){
+    var yay = "Born Ready!!🤩";
+    var boo = "Lame🙄";
+    if(confirm("Ready for Adventurous?")) {
+        document.write(txt);
+    } else {
+        document.write(txt2)
+    }
+    document.getElementById("demo")
+}
+*/
+
+------------------------------------------------
+
+ /* var user_play;
+     alert("Welcome to Wonderland🤩")
+
+     user_play = confirm("Ready for adventure?");{
+
+        if (user_play==true) {
+            alert("Legggooo!");
+            alert("Wowww!! I know I know! Everytime I return back to wonderland it still amazes me! Just look at this beautiful forest with fruit trees and so peaceful. I can taste the air so fresh, and so many colorful flowers, trees, plants like their singing to us. Look! You got a wing now! feel free to just fly and take a look at your surroundings! We can travel with the birds and butterflies and see where they will lead us!");
+            alert("choose your power")
+        }
+     }
+     */ 
+
+     ------------------------------------------------
+
+     let hour = 20;
+        if (hour >= 6 && hour <12)
+        console.log('gm');
+        else if (hour >= 12 && hour < 18)
+        console.log('gf');
+        else
+        console.log('ge');

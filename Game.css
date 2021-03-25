@@ -1,0 +1,69 @@
+   
+   
+   body{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 100vh;
+        background-image: url(magicalforest.jpg);
+    /*    background-image: url(magicalforest.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Sofia", sans-serif;
+        font-size: 50px;
+        text-align: center;
+*/
+    }
+
+
+    .Wonderland {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Sofia', sans-serif;
+    }
+
+    .container {
+            text-align: center;
+            display: grid;
+            gap: -5px;
+    }
+
+    #adventure {
+        display: block;
+        background-color: wheat;
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 8px;
+        width: 800px;
+        height: 155px;
+        text-align: center;
+    }
+
+    #Characters {
+        justify-content: center;
+    }
+
+    #box {
+        width: 800px;
+        background-image: url(vintage.png);
+        box-shadow: 0 0 15px 2px;
+        padding: 10px;
+        border-radius: 5px;
+        /*background-image: url(vintage.png);
+        width: 800px;
+        height: 100px;
+        padding: 150px;
+        border-radius: 30px;
+        */
+    }
