@@ -86,4 +86,19 @@ function Characters(){
         };
 
     
-    
+  let Pegasus = 25;
+  let Mermaid = 25;
+  let Dragon = 25;
+  let Unicorn = 25;
+
+  if (Pegasus > "Mermaid + Dragon + Unicorn"){
+        console.log("Pegasus the WINNER!");
+  } else if 
+     (Mermaid > "Dragon + Unicorn + Pegasus"){
+         console.log("Mermaid the WINNER!!");
+     } else if
+     (Dragon > "Unicorn + Pegasus + Mermaid"){
+         console.log("Dragon the WINNER!");
+     } else 
+     (Unicorn > "Pegasus + Mermaid + Dragon");
+         console.log("Unicorn the WINNER!")
